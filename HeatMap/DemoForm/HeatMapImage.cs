@@ -86,7 +86,7 @@ namespace HeatMap
             this.w = width;
             this.h = height;
             CreateColorMap();
-
+            
             //对高斯核尺寸进行判断
             if (gSize < 3 || gSize > 400)
             {

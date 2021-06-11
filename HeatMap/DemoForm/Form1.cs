@@ -91,5 +91,10 @@ namespace DemoForm
             var count = (int)numericUpDown1.Value;
             TextExample2(count);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
